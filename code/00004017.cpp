@@ -7,10 +7,12 @@
 #include "assembly.h"
 
 
-int main(int argc, char *argv[])
+int main()
 {
-    char filename[150];
-    strcpy(filename,argv[1]);
+    //char filename[150];
+    //strcpy(filename,argv[1]);
+
+    char* filename="labo6";
 
     vector<Matrix> localKs;
     vector<Vector> localbs;
